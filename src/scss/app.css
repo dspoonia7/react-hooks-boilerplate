@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 120%;
+  color: #333; }
+
+.app {
+  width: 100%;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.app-header {
+  width: 100%;
+  box-shadow: 0 0 1em #ddd; }
+
+.main-content {
+  flex: 1; }
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.main-loader {
+  height: 100%;
+  margin-bottom: 3.5em;
+  letter-spacing: 3px;
+  font-size: 125%;
+  font-family: sans-serif;
+  color: #333;
+  margin: 10em; }
+
+.main-error {
+  margin: 10em;
+  color: red;
+  font-size: 120%; }
